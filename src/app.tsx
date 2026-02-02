@@ -87,13 +87,16 @@ function App() {
         <button>Submit</button>
       </form>
 
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center gap-2">
         <p>Darryl Wormley</p>
 
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center gap-1">
           <p>Jeff Buckley</p>
 
-          <div className="mx-auto h-80 w-200 border-2">
+          <div className="relative mx-auto size-160 border-2">
+            <div className="absolute left-1/2 h-full border border-dashed border-black/40" />
+            <div className="absolute top-1/2 w-full border border-dashed border-black/40" />
+
             {people?.map((person) => {
               return <Person person={person} />
             })}
