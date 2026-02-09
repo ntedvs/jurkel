@@ -91,7 +91,7 @@ function App() {
         <p>Darryl Wormley</p>
 
         <div className="flex flex-col items-center gap-1">
-          <p>Jeff Buckley</p>
+          <p>Jeffrey Epstein</p>
 
           <div className="relative mx-auto size-160 border-2">
             <div className="absolute left-1/2 h-full border border-dashed border-black/40" />
@@ -102,7 +102,7 @@ function App() {
             })}
           </div>
 
-          <p>Jeffrey Epstein</p>
+          <p>Jeff Buckley</p>
         </div>
 
         <p>Steve Urkel</p>
